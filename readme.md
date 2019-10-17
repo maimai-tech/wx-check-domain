@@ -9,7 +9,7 @@ npm i wx-check-domain
 ## 使用
 ```
 var WxCheckDomain = require('wx-check-domain');
-// 
+
 let checker = new WxCheckDomain('your app id ', 'your app secret', 'access_token save path');
 let result = await checker.check('http://www.epochtimes.com/');
 console.log('==== http://www.somebannedsites.com/ ', result); // { code: -1, msg: 'banned' }
