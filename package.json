@@ -1,0 +1,26 @@
+{
+  "name": "wx-check-domain",
+  "version": "1.0.3",
+  "description": "check whether target domain in banned by wx or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "domain",
+    "check"
+  ],
+  "author": "jxintang",
+  "license": "ISC",
+  "dependencies": {
+    "node-storage": "0.0.9",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jxintang/wx-check-domain.git",
+    "web": "https://github.com/jxintang/wx-check-domain"
+  }
+}
